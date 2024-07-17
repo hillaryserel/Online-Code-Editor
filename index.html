@@ -7,7 +7,56 @@
     <title>Online Code Editor</title>
 </head>
 <body>
-    
+    <header>
+		<div id="c-red" class="circle"></div>
+		<div id="c-yellow" class="circle"></div>
+		<div id="c-green" class="circle"></div>
+		<h1><span id="c-gray"></span>LarryTheCoder &#45; The Best Online Code Editor</h1>
+</header>
+
+<nav>
+		<h2>Working Files</h2>
+		<ul>
+				<li><a href="" class="active">index<span class="ft">.html</span></a>
+				</li>
+				<li><a href="styles">styles<span class="ft">.css</span></a>
+				</li>
+				<li><a href="main">main<span class="ft">.js</span></a>
+				</li>
+				<li><a href="data">data<span class="ft">.json</span></a>
+				</li>
+		</ul>
+</nav>
+
+<div contenteditable="true" spellcheck="false" onkeypress="lineCount();" style="outline: none">
+		<div id="page-1" class="page" style="display: block">
+		</div>
+
+		<div id="page-2" class="page">
+				<p>Feel free to make some changes!</p>
+		</div>
+
+		<div id="page-3" class="page">
+				<p>function You() {</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;return somethingCool;</p>
+				<p>}</p>
+		</div>
+
+		<div id="page-4" class="page">
+				<p>This was create with :)</p>
+		</div>
+</div>
+
+<footer>
+		<p>Developed by Hillary Serel &#45; <span>1 Line</span>
+		</p>
+		<ul>
+				<li>INS</li>
+				<li id="fileType">HTML</li>
+				<li id="color">■</li>
+				<li>Tab Size: 4</li>
+		</ul>
+</footer>
     <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
